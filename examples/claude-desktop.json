@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "brieform": {
+      "type": "streamable-http",
+      "url": "https://brieform.app/api/mcp/mcp"
+    }
+  }
+}

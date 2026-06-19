@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "brieform": {
+      "url": "https://brieform.app/api/mcp/mcp"
+    }
+  }
+}

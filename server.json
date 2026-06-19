@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "app.brieform/brieform",
+  "description": "AI-native form builder with a native MCP server: create, publish, and read form responses from Claude, ChatGPT, Cursor, and any MCP client.",
+  "version": "1.0.0",
+  "websiteUrl": "https://brieform.app",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://brieform.app/api/mcp/mcp"
+    }
+  ]
+}
