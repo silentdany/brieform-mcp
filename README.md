@@ -89,11 +89,10 @@ Works with any MCP client, including **Claude**, **ChatGPT**, **Cursor**, **Le C
 
 | Plan | Monthly | Key limits |
 |------|---------|------------|
-| **Free** | $0 | 1 active form, 50 responses/mo, 11/12 MCP tools, no credit card |
-| **Starter** | $29/mo | 20 forms, 2,000 responses, all 12 tools (analytics included), branding removed |
-| **Pro** | $69/mo | Unlimited forms & responses, all 12 tools, priority support |
+| **Free** | $0 | Unlimited forms & responses (fair use), 13 core MCP tools (analytics + uploads included), no credit card |
+| **Pro** | $39/mo | Everything in Free + specialist tools (`analyze_brief`, `create_form_from_brief`), branding removed, priority support |
 
-> **Founders Rate:** 50% off for life on Starter and Pro, for the first 30 customers, applied automatically.
+> **Founders Rate:** $19.50/mo forever for the first 30 paying customers (50% off Pro), applied automatically when spots remain. No Starter plan.
 
 ## Links
 
@@ -107,4 +106,4 @@ Found a bug or have a feature request? [Open an issue](../../issues). For accoun
 
 ---
 
-Built by [Dany](https://x.com/MajorBaguette) · Made for teams who already live in their chat client.
+Built by [Dany](https://brieform.app/about) · Made for teams who already live in their chat client.
