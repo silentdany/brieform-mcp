@@ -106,4 +106,4 @@ Found a bug or have a feature request? [Open an issue](../../issues). For accoun
 
 ---
 
-Built by [Dany](https://x.com/MajorBaguette) · Made for teams who already live in their chat client.
+Built by [Dany](https://brieform.app/about) · Made for teams who already live in their chat client.
