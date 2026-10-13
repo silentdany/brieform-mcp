@@ -50,13 +50,15 @@ On first use, your client opens an OAuth login to connect your Brieform account,
 
 Client-specific configs are in [`examples/`](./examples). You can also [try it in your browser](https://glama.ai/mcp/inspector?servers=%5B%7B%22authType%22%3A%22oauth%22%2C%22id%22%3A%22https%3A%2F%2Fbrieform.app%2Fapi%2Fmcp%2Fmcp%22%2C%22name%22%3A%22Brieform%22%2C%22url%22%3A%22https%3A%2F%2Fbrieform.app%2Fapi%2Fmcp%2Fmcp%22%7D%5D) via the Glama Inspector.
 
-## The 12 MCP tools
+## The 15 MCP tools
 
-Full form lifecycle, all from chat:
+Full form lifecycle from chat, plus pré-devis specialists on Pro:
 
 | Tool | What it does |
 |------|--------------|
 | `create_form` | Generate a form from a natural-language description (or structured fields) |
+| `create_form_from_brief` | Build a pré-devis / intake form from a pasted client brief (Pro) |
+| `analyze_brief` | Spot known facts and gaps in a client brief before pricing (Pro) |
 | `update_form` | Edit fields, layout, logic, or copy |
 | `publish_form` | Make a draft public and get its live URL |
 | `unpublish_form` | Take a form offline (responses preserved) |
@@ -66,6 +68,7 @@ Full form lifecycle, all from chat:
 | `delete_form` | Remove a form (requires explicit confirmation) |
 | `set_form_theme` | Apply a theme (8 presets or custom colors) |
 | `get_responses` | Read submissions in the conversation (CSV export for large sets) |
+| `get_upload_url` | Mint a short-lived download URL for one uploaded file |
 | `get_form_analytics` | Views, submissions, conversion rate, referrers, funnel |
 | `get_form_share_assets` | Public URL, embed snippet, social image, QR code |
 
@@ -97,8 +100,10 @@ Works with any MCP client, including **Claude**, **ChatGPT**, **Cursor**, **Le C
 ## Links
 
 - Website & sign-up: https://brieform.app
+- Docs (15 tools): https://brieform.app/docs/mcp-tools
+- Install Cursor: https://brieform.app/install/cursor
 - Glama connector: https://glama.ai/mcp/connectors/app.brieform/brieform
-- Official MCP registry: `app.brieform/brieform`
+- Official MCP registry (live): `io.github.silentdany/brieform`
 
 ## Support
 
